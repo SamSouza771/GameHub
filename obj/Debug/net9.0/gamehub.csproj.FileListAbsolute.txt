@@ -26,3 +26,5 @@ C:\dev\gamehub\bin\Debug\net9.0\ru\Spectre.Console.Cli.resources.dll
 C:\dev\gamehub\bin\Debug\net9.0\sv\Spectre.Console.Cli.resources.dll
 C:\dev\gamehub\bin\Debug\net9.0\zh-Hans\Spectre.Console.Cli.resources.dll
 C:\dev\gamehub\obj\Debug\net9.0\gamehub.csproj.Up2Date
+C:\dev\gamehub\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\dev\gamehub\obj\Debug\net9.0\gamehub.sourcelink.json

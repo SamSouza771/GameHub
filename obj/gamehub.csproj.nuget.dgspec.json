@@ -50,6 +50,10 @@
               "version": "[9.0.0, )",
               "autoReferenced": true
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Spectre.Console": {
               "target": "Package",
               "version": "[0.50.0, )"

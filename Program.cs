@@ -10,7 +10,7 @@ namespace gamehub
 			var nomes = new List<string>();
 			foreach (var arquivo in arquivos)
 			{
-				    var nome = Path.GetFileNameWithoutExtension(arquivo);
+				    var nome = Path.GetFileName(arquivo);
 					nomes.Add(nome);
 			}
 			var panel = new Panel("nha");
@@ -28,7 +28,7 @@ namespace gamehub
 
 			var processo = new System.Diagnostics.ProcessStartInfo
 			{
-				    FileName = @$"C:\\Users\\SAM\\Documents\\jogos\\{programa}.lnk",
+				    FileName = @$"C:\\Users\\SAM\\Documents\\jogos\\{programa}",
 					UseShellExecute = true
 			};
 

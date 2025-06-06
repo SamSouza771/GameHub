@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("gamehub")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2281e2cfeccb84d08e07e9e677c514f4765145ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("gamehub")]
 [assembly: System.Reflection.AssemblyTitleAttribute("gamehub")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
