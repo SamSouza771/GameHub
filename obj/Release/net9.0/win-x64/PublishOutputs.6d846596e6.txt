@@ -1,2 +1,0 @@
-C:\dev\gamehub\bin\Release\net9.0\win-x64\publish\gamehub.pdb
-C:\dev\gamehub\bin\Release\net9.0\win-x64\publish\gamehub.exe

@@ -4,9 +4,10 @@ namespace gamehub
 {
 	 public static class Program {
 		public static void Main(string[] args) {
-			string path = @"C:\\Users\\SAM\\Documents\\jogos";
+			var path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+	        var pathfdr = Path.Combine(path, "jogos\\");
 
-			var arquivos = Directory.GetFiles(path);
+			var arquivos = Directory.GetFiles(pathfdr);
 			var nomes = new List<string>();
 			foreach (var arquivo in arquivos)
 			{
@@ -28,7 +29,7 @@ namespace gamehub
 
 			var processo = new System.Diagnostics.ProcessStartInfo
 			{
-				    FileName = @$"C:\\Users\\SAM\\Documents\\jogos\\{programa}",
+				    FileName = @$"{pathfdr}{programa}",
 					UseShellExecute = true
 			};
 
