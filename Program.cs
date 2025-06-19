@@ -5,7 +5,7 @@ namespace gamehub
 	 public static class Program {
 		public static void Main(string[] args) {
 			var path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-	        var pathfdr = Path.Combine(path, "jogos\\");
+	        	var pathfdr = Path.Combine(path, "jogos\\");
 
 			var arquivos = Directory.GetFiles(pathfdr);
 			var nomes = new List<string>();
@@ -14,7 +14,6 @@ namespace gamehub
 				    var nome = Path.GetFileName(arquivo);
 					nomes.Add(nome);
 			}
-			var panel = new Panel("nha");
 			AnsiConsole.Write(
 				    new FigletText("GameHub")
 					        .LeftJustified()
